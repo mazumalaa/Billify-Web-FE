@@ -12,7 +12,7 @@ const Navbar = ({ data }) => {
   return (
     <>
       <header className={`z-9999 fixed top-0 left-0 right-0 bg-linear-to-r from-gray-700 to-indigo-400 p-6`}>
-        <div className={`flex overflow-hidden items-center justify-between bg-gray-50 absolute top-5 left-[10%] right-[10%] p-2 px-4 rounded-lg shadow-md`}>
+        <div className={`flex overflow-hidden items-center justify-between bg-gray-50 absolute top-5 left-[5%] right-[5%] md:left-[10%] md:right-[10%] p-2 px-4 rounded-lg shadow-md`}>
           <div>
             <img className={`w-26`} src={Logo} alt="Billify Logo" />
           </div>

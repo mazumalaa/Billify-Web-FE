@@ -2,6 +2,7 @@
 import { RouterProvider } from "react-router/dom";
 import router from "./routes/routes"
 import "./styles/main.css"
+import "./styles/animate.css"
 
 // My-Setup
 const App = () => {

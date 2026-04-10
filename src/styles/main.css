@@ -4,4 +4,5 @@
 /* ===== Root ===== */
 :root {
   interpolate-size: allow-keywords;
+  @apply text-gray-700
 }
