@@ -60,8 +60,8 @@ const HomePage = () => {
                     <HiUsers className={`text-7xl text-indigo-400 mx-auto`} />
 
                     <div>
-                        <h3 className={`text-gray-700 font font-medium text-center text-xl capitalize`}>the data is still empty</h3>
-                        <p className={`text-lg text-center text-gray-400`}>Add friends to display your friends list.</p>
+                        <h3 className={`text-gray-700 font font-medium text-center text-base md:text-lg lg:text-xl capitalize`}>the data is still empty</h3>
+                        <p className={`text-sm md:text-lg text-center text-gray-400`}>Add friends to display your friends list.</p>
                     </div>
                 </div>
             </CustomSection>
@@ -82,8 +82,8 @@ const HomePage = () => {
                     <HiShoppingBag className={`text-7xl text-indigo-400 mx-auto`} />
 
                     <div>
-                        <h3 className={`text-gray-700 font font-medium text-center text-xl capitalize`}>the data is still empty</h3>
-                        <p className={`text-lg text-center text-gray-400`}>Add products to display your products list.</p>
+                        <h3 className={`text-gray-700 font font-medium text-center text-base md:text-lg lg:text-xl capitalize`}>the data is still empty</h3>
+                        <p className={`text-sm md:text-lg text-center text-gray-400`}>Add products to display your products list.</p>
                     </div>
                 </div>
             </CustomSection>
@@ -93,8 +93,8 @@ const HomePage = () => {
                     <HiDatabase className={`text-7xl text-indigo-400 mx-auto`} />
 
                     <div>
-                        <h3 className={`text-gray-700 font font-medium text-center text-xl capitalize`}>tthe data is incomplete</h3>
-                        <p className={`text-lg text-center text-gray-400`}>Complete all the data needed to perform the calculation.</p>
+                        <h3 className={`text-gray-700 font font-medium text-center text-base md:text-lg lg:text-xl capitalize`}>tthe data is incomplete</h3>
+                        <p className={`text-sm md:text-lg text-center text-gray-400`}>Complete all the data needed to perform the calculation.</p>
                     </div>
                 </div>
             </CustomSection>
@@ -104,8 +104,8 @@ const HomePage = () => {
                     <HiEquals className={`text-7xl text-indigo-400 mx-auto`} />
 
                     <div>
-                        <h3 className={`text-gray-700 font font-medium text-center text-xl capitalize`}>tthe data is incomplete</h3>
-                        <p className={`text-lg text-center text-gray-400`}>Complete all the data and do the calculations to see the results.</p>
+                        <h3 className={`text-gray-700 font font-medium text-center text-base md:text-lg lg:text-xl capitalize`}>tthe data is incomplete</h3>
+                        <p className={`text-sm md:text-lg text-center text-gray-400`}>Complete all the data and do the calculations to see the results.</p>
                     </div>
                 </div>
             </CustomSection>

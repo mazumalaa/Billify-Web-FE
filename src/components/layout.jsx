@@ -2,6 +2,7 @@
 import { Outlet } from "react-router"
 import Navbar from "./navbar";
 import { FiClock, FiHome } from "react-icons/fi";
+import CustomFooter from "./customFooter";
 
 // My-Setup
 const LayoutPage = () => {
@@ -19,6 +20,7 @@ const LayoutPage = () => {
                     <Outlet />
                 </div>
             </main>
+            <CustomFooter />
         </>
     )
 }
