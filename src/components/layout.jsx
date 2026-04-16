@@ -16,7 +16,7 @@ const LayoutPage = () => {
         <>
             <Navbar data={navbarData} />
             <main className={`bg-gray-300 w-full min-h-screen py-20`}>
-                <div className={` max-w-[95%] lg:max-w-[85%] columns-1 md:columns-2 mx-auto `}>
+                <div className={` max-w-[95%] lg:max-w-[85%] mx-auto `}>
                     <Outlet />
                 </div>
             </main>

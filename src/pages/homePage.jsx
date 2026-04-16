@@ -21,7 +21,7 @@ const HomePage = () => {
     }
 
     return (
-        <>
+        <div className={`columns-1 md:columns-2`}>
             <CustomSection title={`Add Friend.`} Icon={RiUserAddLine}>
                 <div className={`flex gap-2 items-center flex-col lg:flex-row`}>
                     <CustomInput onChange={(e) => handleChange("friendsName", e.target.value)} value={input.friendsName} label={`Friend's Name`} Icon={RiUserAddLine} />
@@ -109,7 +109,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </CustomSection>
-        </>
+        </div>
     )
 }
 
